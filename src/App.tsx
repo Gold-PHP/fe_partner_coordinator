@@ -19,6 +19,7 @@ import { ScrollToTop } from "./components/common/ScrollToTop";
 import Home from "./pages/Dashboard/Home";
 import PageChiPhiCoDinh from "./pages/Forms/PageChiPhiCoDinh";
 import PageChiPhiBienDong from "./pages/Forms/PageChiPhiBienDong";
+import SettingCost from "./pages/Forms/SettingCost";
 
 export default function App() {
   return (
@@ -36,6 +37,7 @@ export default function App() {
             <Route path="/blank" element={<Blank />} />
 
             {/* Forms */}
+            <Route path="/cai-dat-chi-phi" element={<SettingCost />} />
             <Route path="/chi-phi-co-dinh" element={<PageChiPhiCoDinh />} />
             <Route path="/chi-phi-bien-dong" element={<PageChiPhiBienDong />} />
 

@@ -8,7 +8,7 @@ import {
   ChevronDownIcon,
   GridIcon,
   HorizontaLDots,
-  ListIcon,
+  // ListIcon,
   // PageIcon,
   // PieChartIcon,
   // PlugInIcon,
@@ -42,21 +42,26 @@ const navItems: NavItem[] = [
     path: "/profile",
   },
   {
+    icon: <UserCircleIcon />,
     name: "Cài đặt",
-    icon: <ListIcon />,
-    subItems: [
-      { 
-        name: "Chi phí cố định", 
-        path: "/chi-phi-co-dinh", 
-        pro: false 
-      },
-      {
-        name: "Chi phí biến động",
-        path: "/chi-phi-bien-dong",
-        pro:false
-      }
-    ],
+    path: "/cai-dat-chi-phi",
   },
+  // {
+  //   name: "Cài đặt",
+  //   icon: <ListIcon />,
+  //   subItems: [
+  //     { 
+  //       name: "Chi phí cố định", 
+  //       path: "/chi-phi-co-dinh", 
+  //       pro: false 
+  //     },
+  //     {
+  //       name: "Chi phí biến động",
+  //       path: "/chi-phi-bien-dong",
+  //       pro:false
+  //     }
+  //   ],
+  // },
   // {
   //   name: "Tables",
   //   icon: <TableIcon />,
