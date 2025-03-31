@@ -69,10 +69,12 @@ export default function MonthlyTarget() {
         <div className="flex justify-between">
           <div>
             <h3 className="text-lg font-semibold text-gray-800 dark:text-white/90">
-              Monthly Target
+              Mục tiêu trong tháng
             </h3>
             <p className="mt-1 text-gray-500 text-theme-sm dark:text-gray-400">
-              Target you’ve set for each month
+              Bạn có thể theo dõi mục tiêu trong tháng của mình qua biểu đồ
+              này. Biểu đồ này giúp bạn theo dõi tiến độ của mình và đưa ra quyết
+              định tốt hơn cho tương lai.
             </p>
           </div>
           <div className="relative inline-block">
@@ -114,18 +116,23 @@ export default function MonthlyTarget() {
           </span>
         </div>
         <p className="mx-auto mt-10 w-full max-w-[380px] text-center text-sm text-gray-500 sm:text-base">
-          You earn $3287 today, it's higher than last month. Keep up your good
-          work!
+          Mục tiêu trong tháng của bạn là 20 triệu đồng. Bạn đã hoàn thành 75%
+          mục tiêu này. Hãy cố gắng hơn nữa để đạt được mục tiêu của mình!
+          <br />
+          <span className="font-semibold text-gray-800 dark:text-white/90">
+            Lưu ý: Biểu đồ này chỉ hiển thị dữ liệu trong tháng qua.
+          </span>
+          <br />
         </p>
       </div>
 
       <div className="flex items-center justify-center gap-5 px-6 py-3.5 sm:gap-8 sm:py-5">
         <div>
           <p className="mb-1 text-center text-gray-500 text-theme-xs dark:text-gray-400 sm:text-sm">
-            Target
+            Mục tiêu
           </p>
           <p className="flex items-center justify-center gap-1 text-base font-semibold text-gray-800 dark:text-white/90 sm:text-lg">
-            $20K
+            20 triệu
             <svg
               width="16"
               height="16"
@@ -147,10 +154,10 @@ export default function MonthlyTarget() {
 
         <div>
           <p className="mb-1 text-center text-gray-500 text-theme-xs dark:text-gray-400 sm:text-sm">
-            Revenue
+            Đã hoàn thành
           </p>
           <p className="flex items-center justify-center gap-1 text-base font-semibold text-gray-800 dark:text-white/90 sm:text-lg">
-            $20K
+            20 triệu
             <svg
               width="16"
               height="16"
@@ -172,10 +179,10 @@ export default function MonthlyTarget() {
 
         <div>
           <p className="mb-1 text-center text-gray-500 text-theme-xs dark:text-gray-400 sm:text-sm">
-            Today
+            Hôm nay
           </p>
           <p className="flex items-center justify-center gap-1 text-base font-semibold text-gray-800 dark:text-white/90 sm:text-lg">
-            $20K
+            20 triệu
             <svg
               width="16"
               height="16"

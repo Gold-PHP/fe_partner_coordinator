@@ -11,6 +11,7 @@ export default function PageChiPhiCoDinh({ onSave }: { onSave: (data: any) => vo
   const [chiPhiCauDuong, setChiPhiCauDuong] = useState({});
   const [chiPhiDauTuXe, setChiPhiDauTuXe] = useState({});
 
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const handleSave = () => {
     const allData = {
       chiPhiCoDinh,
@@ -23,6 +24,7 @@ export default function PageChiPhiCoDinh({ onSave }: { onSave: (data: any) => vo
 
   return (
     <div>
+      <h1 className="text-2xl font-bold mb-4">Quản Lý Chi Phí Cố Định</h1>
       <div className="grid grid-cols-1 gap-6 xl:grid-cols-2">
         <div className="space-y-6">
           <ChiPhiCoDinh onChange={(data) => setChiPhiCoDinh(data)} />
@@ -32,14 +34,6 @@ export default function PageChiPhiCoDinh({ onSave }: { onSave: (data: any) => vo
           <ChiPhiBaoHiem onChange={(data) => setChiPhiBaoHiem(data)} />
           <ChiPhiDauTuXe onChange={(data) => setChiPhiDauTuXe(data)} />
         </div>
-      </div>
-      <div className="mt-6">
-        <button
-          onClick={handleSave}
-          className="px-4 py-2 bg-blue-500 text-white rounded"
-        >
-          Lưu
-        </button>
       </div>
     </div>
   );

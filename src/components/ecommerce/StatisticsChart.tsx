@@ -116,10 +116,16 @@ export default function StatisticsChart() {
       <div className="flex flex-col gap-5 mb-6 sm:flex-row sm:justify-between">
         <div className="w-full">
           <h3 className="text-lg font-semibold text-gray-800 dark:text-white/90">
-            Statistics
+            Biên độ xếp lịch của bạn
           </h3>
           <p className="mt-1 text-gray-500 text-theme-sm dark:text-gray-400">
-            Target you’ve set for each month
+            Bạn có thể theo dõi biên độ xếp lịch của mình trong <span className=" text-red-600">Ngày</span>  qua. Biểu đồ này
+            sẽ giúp bạn hiểu rõ hơn về xu hướng và biến động trong lịch trình của
+            bạn.
+            <br />
+            <span className="font-semibold text-gray-800 dark:text-white/90">
+              Lưu ý: Biểu đồ này chỉ hiển thị dữ liệu trong <span className=" text-red-600">Ngày</span> qua.
+            </span>
           </p>
         </div>
         <div className="flex items-start w-full gap-3 sm:justify-end">
